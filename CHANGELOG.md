@@ -9,10 +9,8 @@
 # =================================================================
 -->
 
-ibm-openstack-zvm-appliance-external-keystone CHANGELOG
+ibm-openstack-external-keystone CHANGELOG
 ==================================
-
-This file is used to list changes made in each version of the ibm-openstack-zvm-appliance-external-keystone cookbook.
 
 12.0.1
 -----
@@ -24,7 +22,7 @@ This file is used to list changes made in each version of the ibm-openstack-zvm-
 
 10.1.0
 -----
-- YangDongYan - Initial release of ibm-openstack-zvm-appliance-external-keystone for Juno, supporting z/VM appliance to use external keystone.
+- YangDongYan - Initial release of ibm-openstack-external-keystone for Juno, supporting z/VM CMA to use external keystone.
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.

@@ -8,6 +8,6 @@
 # disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
 # =================================================================
 #
-# Cookbook Name:: ibm-openstack-zvm-appliance-external-keystone
+# Cookbook Name:: ibm-openstack-external-keystone
 # Recipe:: default
 #

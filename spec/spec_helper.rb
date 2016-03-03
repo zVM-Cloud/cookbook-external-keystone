@@ -8,14 +8,14 @@
 # disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
 # =================================================================
 #
-# Cookbook Name:: ibm-openstack-zvm-appliance-external-keystone
+# Cookbook Name:: ibm-openstack-external-keystone
 # Spec:: spec_helper
 #
 
 require 'chefspec'
 require 'chefspec/berkshelf'
 
-ChefSpec::Coverage.start! { add_filter 'ibm-openstack-zvm-appliance-external-keystone' }
+ChefSpec::Coverage.start! { add_filter 'ibm-openstack-external-keystone' }
 
 require 'chef/application'
 

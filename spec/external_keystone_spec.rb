@@ -8,12 +8,12 @@
 # disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
 # =================================================================
 #
-# Cookbook Name:: ibm-openstack-zvm-appliance-external-keystone
+# Cookbook Name:: ibm-openstack-external-keystone
 # Spec:: external_keystone_spec
 #
 require_relative 'spec_helper'
 
-describe 'ibm-openstack-zvm-appliance-external-keystone::external_keystone' do
+describe 'ibm-openstack-external-keystone::external_keystone' do
   let(:runner) { ChefSpec::ServerRunner.new(REDHAT_OPTS) }
   let(:node) { runner.node }
   let(:chef_run) do

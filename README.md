@@ -9,7 +9,7 @@
 # =================================================================
 -->
 
-ibm-openstack-zvm-appliance-external-keystone Cookbook
+ibm-openstack-external-keystone Cookbook
 ====================================
 This cookbook add z/VM CMA as a z/VM region to an existing external OpenStack environment.
 It can be deployed on z/VM CMA.

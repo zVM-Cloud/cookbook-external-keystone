@@ -7,15 +7,15 @@
 # US Government Users Restricted Rights - Use, duplication or
 # disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
 # =================================================================
-name             'ibm-openstack-zvm-appliance-external-keystone'
+name             'ibm-openstack-external-keystone'
 maintainer       'IBM Corp.'
 maintainer_email 'www.ibm.com'
 license          'All rights reserved'
-description      'Installs/Configures ibm-openstack-zvm-appliance-external-keystone'
+description      'Installs/Configures external-keystone'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '12.0.1'
 
-recipe           'ibm-openstack-zvm-appliance-external-keystone::external_keystone', 'Configure z/VM appliance to use external keystone'
+recipe           'ibm-openstack-external-keystone::external_keystone', 'Configure z/VM CMA to use external keystone'
 
 supports 'redhat'
 
