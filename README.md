@@ -1,6 +1,6 @@
 openstack-zvm-external-keystone Cookbook
 ====================================
-This cookbook add z/VM CMA(Cloud Manager Appliance, it provides an easy method to deploy an OpenStack controller or compute node with z/VM support) as a z/VM region to an existing external OpenStack environment.
+This cookbook add z/VM CMA(Cloud Manager Appliance, it provides an easy method to deploy an OpenStack controller or compute node with z/VM support) as a z/VM region to an existing external OpenStack environment.  
 It can only be deployed on z/VM CMA.
 
 Usage
