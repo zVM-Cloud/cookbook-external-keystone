@@ -2,18 +2,18 @@
 # =================================================================
 # Licensed Materials - Property of IBM
 #
-# (c) Copyright IBM Corp. 2015, 2016 All Rights Reserved
+# Copyright 2015, 2016 IBM Corp.
 #
 # US Government Users Restricted Rights - Use, duplication or
 # disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
 # =================================================================
 #
-# Cookbook Name:: ibm-openstack-external-keystone
+# Cookbook Name:: openstack-zvm-external-keystone
 # Spec:: external_keystone_spec
 #
 require_relative 'spec_helper'
 
-describe 'ibm-openstack-external-keystone::external_keystone' do
+describe 'openstack-zvm-external-keystone::external_keystone' do
   let(:runner) { ChefSpec::ServerRunner.new(REDHAT_OPTS) }
   let(:node) { runner.node }
   let(:chef_run) do

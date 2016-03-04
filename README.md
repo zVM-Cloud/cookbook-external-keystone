@@ -1,20 +1,7 @@
-<!--
-# =================================================================
-# Licensed Materials - Property of IBM
-#
-# (c) Copyright IBM Corp. 2015, 2016 All Rights Reserved
-#
-# US Government Users Restricted Rights - Use, duplication or
-# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
-# =================================================================
--->
-
-ibm-openstack-external-keystone Cookbook
+openstack-zvm-external-keystone Cookbook
 ====================================
 This cookbook add z/VM CMA(Cloud Manager Appliance, it provides an easy method to deploy an OpenStack controller or compute node with z/VM support) as a z/VM region to an existing external OpenStack environment.
 It can only be deployed on z/VM CMA.
-
-
 
 Usage
 =====
@@ -24,7 +11,3 @@ http://www.vm.ibm.com/sysman/openstk.html
 Testing
 =======
 Please refer to the [TESTING.md](TESTING.md) for instructions for testing the cookbook.
-
-License
-=======
-Please refer to the [LICENSE](LICENSE) for the license.

@@ -2,20 +2,20 @@
 # =================================================================
 # Licensed Materials - Property of IBM
 #
-# (c) Copyright IBM Corp. 2015, 2016 All Rights Reserved
+# Copyright 2015, 2016 IBM Corp.
 #
 # US Government Users Restricted Rights - Use, duplication or
 # disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
 # =================================================================
 #
-# Cookbook Name:: ibm-openstack-external-keystone
+# Cookbook Name:: openstack-zvm-external-keystone
 # Spec:: spec_helper
 #
 
 require 'chefspec'
 require 'chefspec/berkshelf'
 
-ChefSpec::Coverage.start! { add_filter 'ibm-openstack-external-keystone' }
+ChefSpec::Coverage.start! { add_filter 'openstack-zvm-external-keystone' }
 
 require 'chef/application'
 

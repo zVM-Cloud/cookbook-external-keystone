@@ -1,15 +1,13 @@
-<!--
 # =================================================================
 # Licensed Materials - Property of IBM
 #
-# (c) Copyright IBM Corp. 2015, 2016 All Rights Reserved
+# Copyright 2015, 2016 IBM Corp.
 #
 # US Government Users Restricted Rights - Use, duplication or
 # disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
 # =================================================================
--->
 
-ibm-openstack-external-keystone CHANGELOG
+openstack-zvm-external-keystone CHANGELOG
 ==================================
 
 12.0.1
@@ -22,7 +20,7 @@ ibm-openstack-external-keystone CHANGELOG
 
 10.1.0
 -----
-- YangDongYan - Initial release of ibm-openstack-external-keystone for Juno, supporting z/VM CMA to use external keystone.
+- YangDongYan - Initial release for Juno, supporting z/VM CMA to use external keystone.
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
